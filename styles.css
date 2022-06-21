@@ -1,0 +1,29 @@
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.head {
+    margin-bottom: 35px;
+    display: flex;
+    align-content: space-around;
+    justify-content: center ;
+}
+
+#canvas {
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    height: 600px;
+    width: 600px;
+
+}
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+}
